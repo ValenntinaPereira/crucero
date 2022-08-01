@@ -1,2 +1,325 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+    <main class="holder">
+        <div class="principal">
+            <img src="images/fondo1.jpg" class="fondo" alt="">
+            <h1>CRUCEROS HAV</h1>
+            <h4>Explorá el mundo</h4>
+            <div class="formulario">
+                <form action="">
+
+                    <p>
+                        <label for="nom">Fecha de ida</label>
+                        <input type="date" name="" id="">
+
+                    </p>
+                    <p>
+                        <label for="nom">Fecha de vuelta</label>
+                        <input type="date" name="" id="">
+                    </p>
+                    <p>
+                        <label for="nom">Destino</label>
+                        <select name="" id="">
+                            <option disabled selected>Seleccione destino</option>
+                            <option value="dubai">Dubai</option>
+                            <option value="mediterraneo">Mediterraneo</option>
+                            <option value="norte">Norte de Europa</option>
+                            <option value="caribe">Caribe y Antillas</option>
+                            <option value="asia">Asia</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="nom">Cantidad de pasajeros</label>
+                        <input type="number" min="1" max="9" name="" id="">
+
+                    </p>
+                    <p>
+                        <input type="submit" value="Buscar" id="">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <br>
+
+    <section id="destinos2" class="holder">
+        <div class="items">
+            <div class="item active">
+                <img src="images/destinos1.jpg">
+                <h4>MEDITERRANEO</h4>
+                <hr>
+                <p>Embárcate en unas vacaciones de ensueño <br> hacia los mejores lugares para visitar <br> cuando
+                    navegues en un crucero al Mediterráneo. </p>
+                <div><a href="">Mas Información</a></div>
+            </div>
+            <div class=" item next">
+                <img src="images/destinos2.jpg">
+                <h4>NORTE DE EUROPA</h4>
+                <hr>
+                <p> Con Hav Cruceros tenés un extraordinario <br> viaje para explorar,<br> con excepcionales e
+                    interesantes
+                    itinerarios </p>
+                <div><a href="">Mas Información</a></div>
+            </div>
+            <div class="item">
+                <img src="images/destinos3.jpg">
+                <h4>CARIBE Y ANTILLAS</h4>
+                <hr>
+                <p>El Caribe siempre ha representado uno de los destinos más bonitos <br> y con más encanto del
+                    mundo, un sueño para cualquier viajero <br> en busca de relax y paisajes de ensueño</p>
+                <div><a href="">Mas Información</a></div>
+            </div>
+            <div class="item">
+                <img src="images/destinos4.jpg">
+                <h4>DUBAI</h4>
+                <hr>
+                <p>El destino evoca a los fascinantes paisajes orientales, <br> paisajes rodeados por el mar turquesa y
+                    <br> las
+                    cálidas arenas del desierto.
+
+                    Donde una vez solo hubo desierto, <br> hoy podemos encontrar los edificios más altos del mundo
+                </p>
+                <div><a href="">Mas Información</a></div>
+            </div>
+            <div class="item prev">
+                <img src="images/destinos6.jpg">
+                <h4>ASIA</h4>
+                <hr>
+                <p> El lejano Oriente nunca ha estado tan cerca. <br> Hav Cruceros te
+                    presenta Asia en un viaje <br> a través de culturas antiguas para descubrir su arte, <br> historia y
+                    tradiciones, pero también su vitalidad actual</p>
+                <div><a href="">Mas Información</a></div>
+            </div>
+            <div class="button-container">
+                <div class="button"><i class="fas fa-angle-left"></i></div>
+                <div class="button"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+
+    </section>
+    <section id="ofertas" class="holder">
+        <div class="contenedor">
+            <div class="oferta">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h3>Conoce nuestro modelo de tarifas</h3>
+                <p>Nuestras tarifas MY CRUISE y ALL INCLUSIVE están diseñadas para satisfacer todas tus necesidades.
+                </p>
+                <a href="">Descubri mas</a>
+            </div>
+            <div class="tarjeta">
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>Todavía no sos Socio H|Club?</h3>
+                <p>Blue, Bronze, Silver, Gold y el prestigioso Platinum.
+
+                    Unite y aprovecha todos los beneficios de esta gran promoción</p>
+                <a href="">Unite al club</a>
+            </div>
+            <div class="paquete">
+                <i class="fa-solid fa-bell-concierge"></i>
+                <h3>Nuestros paquetes</h3>
+                <p>Cuidamos a nuestros pasajeros con paquetes a medida para parejas, familias, mayores,
+                    personas con necesidades especiales y grupos.</p>
+                <a href="">Escoge tu opcion</a>
+            </div>
+        </div>
+
+    </section>
+    <div class="contador">
+        <h5>ALL INCLUSIVE DE BEBIDAS + RESERVA FLEXIBLE</h5>
+        <h6>Promoción válida para cualquier destino</h6>
+        <p>
+            <span id="days"></span> Días <span id="hours"></span> Horas <span id="minutes"></span> Minutos
+            <span id="seconds"></span> Segundos
+        </p>
+        <br>
+        <a href="#reservas">
+            <div>Reserva ahora</div>
+        </a>
+    </div>
+    <div class="parrafo"> <br>
+        <p>Nuestro objetivo es acompañarte a explorar el mundo de la manera más sostenible, llena de sabores, relajante
+            y sorprendente.. <br>
+
+
+            Tenemos muchas novedades que contarte: <br> descubrí de inmediato lo que te espera en tu próximo crucero,
+            tanto a bordo como en tierra.
+
+        </p>
+        <br>
+    </div>
+    <section id="vida" class="holder">
+
+
+        <div class="item1">
+            <h5>Excursiones más largas</h5>
+            <p>En cada destino te esperan experiencias de viaje reales para descubrir, a tu ritmo, <br> nuevos e
+                inesperados lugares.</p>
+            <img src="https://cdn.pixabay.com/photo/2020/04/02/19/39/seagull-4996560_960_720.jpg" alt="">
+
+
+        </div>
+        <div class="item2">
+            <h5>Una nueva experiencia de sabor</h5>
+            <p>Desde el desayuno a la cena: cada día platos de la más alta calidad. ¿Te gustaría sushi o un plato
+                gourmet? ¡Lo tenemos a bordo!</p>
+            <img src="https://cdn.pixabay.com/photo/2014/12/15/14/05/salad-569156_960_720.jpg" alt="">
+
+        </div>
+        <div class="item3">
+            <h5>Emociones infinitas</h5>
+            <p>Un baño en la pileta, un aperitivo con amigos, un espectáculo increíble con acróbatas en el teatro. ¡Un
+                mundo de emociones te esperan! </p>
+            <img src="https://cdn.pixabay.com/photo/2014/08/06/21/17/acrobats-412011_960_720.jpg" alt="">
+
+        </div>
+        <div class="item4" id="item4">
+            <img src="https://cdn.pixabay.com/photo/2016/10/11/12/36/massage-therapy-1731456_960_720.jpg" alt="">
+            <div>
+                <h5>Todo el bienestar que te mereces</h5>
+                <p>Todo lo que necesita para una escapada de bienestar: gimnasio, peluquería, bañera de hidromasaje,
+                    tratamientos <br> y masajes y mucho más. </p>
+                <br><br>
+            </div>
+        </div>
+        <div class="item5">
+            <h5>Despertá en el mar</h5>
+            <p>Cada día un paisaje diferente: la manera perfecta de comenzar tu siguiente día de vacaciones.
+                <br>Descubrí las suites a bordo de nuestros barcos, cada una con su propio estilo.
+            </p>
+            <a href="">Más información</a>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section id="nosotros" class="holder">
+        <h2>Sentí el calor de nuestra hospitalidad</h2>
+        <div class="contenedor1">
+            <div class="punto1">
+                <i class="fa-solid fa-circle-check"></i>
+                <h3>Una bienvenida auténtica</h3>
+                <p>En Hav Cruceros, nuestro objetivo es proporcionarte <br> un servicio cargado de calidez y cercanía.
+                    <br>
+                    Los programas de formación de nuestra tripulación garantizan que sabemos cómo cuidar <br> de
+                    nuestros pasajeros. Ya sea llevándote una bebida, preparando tu comida o respondiendo a <br>
+                    cualquiera de tus preguntas, <br> haremos todo lo posible por ayudarte
+                </p>
+
+            </div>
+            <div class="punto2">
+                <i class="fa-solid fa-circle-check"></i>
+                <h3>El confort ante todo</h3>
+                <p>
+                    • Un elevado porcentaje de personal por pasajero para garantizar un servicio a bordo de gran calidad
+                    <br>
+                    • Nuestra tripulación multilingüe podrá informarte en los idiomas más hablados entre nuestros
+                    pasajeros <br>
+                    • Nuestra actitud orientada a la resolución de problemas nos permite responder a cualquier solicitud
+                    de forma rápida y atenta
+                </p>
+
+            </div>
+            <div class="punto3">
+                <i class="fa-solid fa-circle-check"></i>
+                <h3>Los más altos estándares </h3>
+                <p>
+                    • Cada uno de nuestros capitanes altamente cualificados aporta su experiencia de la compañía<br>
+                    • Tripulación especializada en procedimientos operativos y con formación continua <br>
+                    • Cada nuevo miembro de la tripulación pasa por un esmerado proceso de familiarización a bordo <br>
+                    • Ofrecemos programas de motivación a nuestra tripulación, como el premio al Empleado del Mes</p>
+
+            </div>
+        </div>
+        <h2>Novedades y noticias</h2>
+         <div class="contenedor">
+            {{#each novedades}}
+            <div class="paquete">
+                <i class="fa-solid fa-newspaper"></i>
+                <h3>{{titulo}}</h3>
+                <p>{{cuerpo}}.</p>
+            </div>
+            {{/each}}
+        </div>
+    </section>
+    
+    <section id="reservas" class="holder">
+        <h2>Tu Crucero te espera</h2>
+        <div class="formulario2">
+            <form action="">
+
+                <p>
+                    <label for="nom">Fecha de ida</label>
+                    <input type="date" name="" id="">
+
+                </p>
+                <p>
+                    <label for="nom">Fecha de vuelta</label>
+                    <input type="date" name="" id="">
+                </p>
+                <p>
+                    <label for="nom">Destino</label>
+                    <select name="" id="">
+                        <option disabled selected>Seleccione destino</option>
+                        <option value="dubai">Dubai</option>
+                        <option value="mediterraneo">Mediterraneo</option>
+                        <option value="norte">Norte de Europa</option>
+                        <option value="caribe">Caribe y Antillas</option>
+                        <option value="asia">Asia</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="nom">Cantidad de pasajeros</label>
+                    <input type="number" min="1" max="9" name="" id="">
+
+                </p>
+
+
+            </form>
+        </div>
+        <input type="radio" name="control" id="boton1" />
+        <label for="boton1" class="boton1" name="buscar">Confirmar</label>
+
+
+        <form action="/#reservas" id="formulario4" method="post">
+            <h3>Datos del huesped</h3>
+            <p>
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" id="">
+            </p>
+            <p>
+                <label for="">Apellido</label>
+                <input type="text" name="apellido">
+            </p>
+            
+            <p>
+                <label for="">Documento</label>
+                <input type="text" name="dni">
+            </p>
+            <p>
+                <label for="">Teléfono</label>
+                <input type="tel" name="tel" id="">
+            </p>
+              <p>
+                <label for="">Email</label>
+                <input type="email" name="email" id="">
+            </p>
+            <p>
+                <label for="" class="dudas">Dudas y consultas</label>
+                <textarea name="duda" id="" placeholder="Escriba aqui"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="Enviar" id="" class="envio">
+            </p>
+            <p class="pfinal">{{message}} <br>Nos comunicaremos pronto para finalizar la reserva. <br> Gracias por elegirnos</p>
+           
+        </form>
+      
+        <h3>Incluye</h3>
+        <div class="fin">
+
+            <ul>
+                <li><i class="fa-solid fa-bowl-food"></i> Pension completa</li>
+                <li><i class="fa-solid fa-ticket"></i> Entretenimiento gratuito</li>
+                <li><i class="fa-solid fa-water-ladder"></i> Actividades fitness y piscinas</li>
+                <li><i class="fa-solid fa-table-tennis-paddle-ball"></i> Clubes para niños</li>
+            </ul>
+        </div>
+
+    </section>

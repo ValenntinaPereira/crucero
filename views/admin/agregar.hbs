@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form action="/admin/novedades/agregar" method="post">
+                <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Titulo</label>
+  <input type="text" class="form-control" name="titulo">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Cuerpo</label>
+  <textarea class="form-control"  rows="3" name="cuerpo"></textarea>
+</div>
+<div class="col-auto">
+                    <button type="submit" class="btn btn-success">Agregar</button>
+                </div>
+            </form>
+            {{#if error}}
+                 <p><br>{{message}}</p>
+                {{/if}}
+
+        </div>
+    </div>
+</div>
